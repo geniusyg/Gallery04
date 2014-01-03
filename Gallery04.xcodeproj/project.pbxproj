@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0001D7641875507E007DC72E /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0001D75F1875507E007DC72E /* 002.jpg */; };
+		0001D7651875507E007DC72E /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0001D7601875507E007DC72E /* ball1.png */; };
+		0001D7661875507E007DC72E /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0001D7611875507E007DC72E /* ball2.png */; };
+		0001D7671875507E007DC72E /* ball3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0001D7621875507E007DC72E /* ball3.png */; };
+		0001D7681875507E007DC72E /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0001D7631875507E007DC72E /* sky.jpg */; };
 		00F0A57D18751D8D005F8D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0A57C18751D8D005F8D89 /* Foundation.framework */; };
 		00F0A57F18751D8D005F8D89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0A57E18751D8D005F8D89 /* CoreGraphics.framework */; };
 		00F0A58118751D8D005F8D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0A58018751D8D005F8D89 /* UIKit.framework */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0001D75F1875507E007DC72E /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		0001D7601875507E007DC72E /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		0001D7611875507E007DC72E /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		0001D7621875507E007DC72E /* ball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball3.png; sourceTree = "<group>"; };
+		0001D7631875507E007DC72E /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
 		00F0A57918751D8D005F8D89 /* Gallery04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gallery04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F0A57C18751D8D005F8D89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00F0A57E18751D8D005F8D89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +122,11 @@
 		00F0A58218751D8D005F8D89 /* Gallery04 */ = {
 			isa = PBXGroup;
 			children = (
+				0001D75F1875507E007DC72E /* 002.jpg */,
+				0001D7601875507E007DC72E /* ball1.png */,
+				0001D7611875507E007DC72E /* ball2.png */,
+				0001D7621875507E007DC72E /* ball3.png */,
+				0001D7631875507E007DC72E /* sky.jpg */,
 				00F0A58B18751D8D005F8D89 /* AppDelegate.h */,
 				00F0A58C18751D8D005F8D89 /* AppDelegate.m */,
 				00F0A58E18751D8D005F8D89 /* Main.storyboard */,
@@ -228,7 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0001D7641875507E007DC72E /* 002.jpg in Resources */,
+				0001D7651875507E007DC72E /* ball1.png in Resources */,
+				0001D7671875507E007DC72E /* ball3.png in Resources */,
 				00F0A59518751D8D005F8D89 /* Images.xcassets in Resources */,
+				0001D7661875507E007DC72E /* ball2.png in Resources */,
+				0001D7681875507E007DC72E /* sky.jpg in Resources */,
 				00F0A58718751D8D005F8D89 /* InfoPlist.strings in Resources */,
 				00F0A59018751D8D005F8D89 /* Main.storyboard in Resources */,
 			);
@@ -460,6 +480,7 @@
 				00F0A5AD18751D8D005F8D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F0A5AE18751D8D005F8D89 /* Build configuration list for PBXNativeTarget "Gallery04Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				00F0A5B018751D8D005F8D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
